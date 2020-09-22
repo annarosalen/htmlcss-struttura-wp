@@ -10,12 +10,14 @@
   margin: 10px auto;
 }
 
+
 /* fine generale */
 
 /* intestazione */
 
 header {
   background-color: yellow;
+  margin-bottom: 10px;
 
   /* debug */
   height: 200px;
@@ -30,17 +32,24 @@ main::after {
   clear: both;
 }
 aside{
-  background-color: violet;
+  /* background-color: violet; */
   width: 25%;
-  height: 50px;
   float: left;
 }
 
 section{
   background-color: purple;
-  width: 50%;
-  height: 300px;
+  width: 45%;
+  height: 500px;
   float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+aside > div {
+  background-color: violet;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 /* fine parte principale */
@@ -49,6 +58,7 @@ section{
 
 footer {
   background-color: lightblue;
+  margin-top: 10px;
 
   /* debug */
   height: 100px;
