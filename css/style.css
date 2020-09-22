@@ -1,0 +1,34 @@
+/* generale */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 95%;
+  margin: 10px auto;
+}
+
+/* fine generale */
+
+header {
+  background-color: yellow;
+
+  /* debug */
+  height: 200px;
+}
+
+main{
+  background-color: green;
+
+  /* debug */
+  height: 300px;
+}
+
+footer {
+  background-color: lightblue;
+
+  /* debug */
+  height: 100px;
+}
