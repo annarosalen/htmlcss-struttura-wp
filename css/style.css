@@ -12,19 +12,40 @@
 
 /* fine generale */
 
+/* intestazione */
+
 header {
   background-color: yellow;
 
   /* debug */
   height: 200px;
 }
+/* fine intestazione */
 
-main{
-  background-color: green;
+/* parte principale */
 
-  /* debug */
-  height: 300px;
+main::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+aside{
+  background-color: violet;
+  width: 25%;
+  height: 50px;
+  float: left;
+}
+
+section{
+  background-color: purple;
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+/* fine parte principale */
+
+/* footer */
 
 footer {
   background-color: lightblue;
